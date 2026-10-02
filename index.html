@@ -162,7 +162,7 @@ min-height:100vh;background:var(--desk);color:var(--graphite);font-family:var(--
   </div>
 </div>
 
-<script src="sentences.js?v=1"></script>
+<script src="sentences.js?v=2"></script>
 <script>
 (function () {
   "use strict";
@@ -391,7 +391,7 @@ min-height:100vh;background:var(--desk);color:var(--graphite);font-family:var(--
     var li = el("li", "ww-card");
     var meta = el("div", "ww-meta");
     meta.appendChild(el("span", "ww-num", (n < 10 ? "0" : "") + n));
-    meta.appendChild(el("span", null, "어려운 표현 " + item.hard.length + "개"));
+    meta.appendChild(el("span", null, "B1 · 어려운 표현 " + item.hard.length + "개"));
     li.appendChild(meta);
 
     var p = el("p", "ww-sentence");
